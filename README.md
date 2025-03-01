@@ -47,6 +47,6 @@ roanne
   - roanne_car.html
 - requirements.txt
 
-Deployed model on render. Link: 
+Deployed model on render. Link: https://mlops-car.onrender.com/predict
 
 
