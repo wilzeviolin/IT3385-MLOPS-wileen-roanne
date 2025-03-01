@@ -4,10 +4,10 @@ MLOPS streamlines the process of deploying Machine Learning models to production
 1. Wheat type classification model: To predict wheat type based on its attributes on its kernel. Type 1- Kama, Type 2 - Rosa and Type 3 - Canadian.
 2. Car price regression model: To predict used care in India based on its characteristics.
 
-## Wheat Type Classification Model 🌾
+## Wheat Type Classification Model 
 Description: This classification model predicts what type of seed based on it's kernel attribute. There are a total of 3 seeds. Type 1- Kama, Type 2 - Rosa and Type 3 - Canadian.
 File Structure
-Wileen
+wileen
 - artifacts
   - seed_pipline.pkl
   - seed_type_classification.pkl
@@ -24,8 +24,9 @@ Wileen
 
 Deployed model on render. Link: https://mlopsindividual.onrender.com/ 
 
-## Car Price Regression Model 🚗
+## Car Price Regression Model 
 Description: This regression model predicts the price of used cars in india based on its characteristics (For example, brand, model, engine seats etc)  
+File Structure
 roanne
 - artifacts
   - used_car_price_model.joblib
