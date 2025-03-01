@@ -101,7 +101,7 @@ def predict():
         print(traceback.format_exc())
         return jsonify({"error": str(e)})
 
-# ✅ NEW: Batch Prediction API
+# Batch Prediction API
 @app.route('/batch_predict', methods=['POST'])
 def batch_predict():
     try:
