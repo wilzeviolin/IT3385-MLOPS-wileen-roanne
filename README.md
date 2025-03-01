@@ -8,6 +8,9 @@ MLOPS streamlines the process of deploying Machine Learning models to production
 Description: This classification model predicts what type of seed based on it's kernel attribute. There are a total of 3 seeds. Type 1- Kama, Type 2 - Rosa and Type 3 - Canadian.
 File Structure
 Wileen
+- artifacts
+  - seed_pipline.pkl
+  - seed_type_classification.pkl
 - config
   - wheat.yaml
 - data
@@ -22,20 +25,23 @@ Wileen
 Deployed model on render. Link: https://mlopsindividual.onrender.com/ 
 
 ## Model 2 (Car Price Regression Model)
-Description: This classification model predicts what type of seed based on it's kernel attribute. There are a total of 3 seeds. Type 1- Kama, Type 2 - Rosa and Type 3 - Canadian.
-File Structure
-Wileen
+Description: This regression model predicts the price of used cars in india based on its characteristics (For example, brand, model, engine seats etc)  
+roanne
+- artifacts
+  - used_car_price_model.joblib
+  - used_car_price_model.pkl
 - config
-  - wheat.yaml
+  - car.yaml
+- src
+  - roanne_carapp.py
 - data
-  - 03_Wheat_Seeds.csv
+  - 02_Used_Car_Prices.xlsx
 - notebook
-  - wileenFinalModelling.ipynb
+  - roanneFinalModelling.ipynb
 - templates
-  - wheat.html
+  - roanne_car.html
 - requirements.txt
-- wileenAPP.py
 
-Deployed model on render. Link: https://mlopsindividual.onrender.com/ 
+Deployed model on render. Link: 
 
 
