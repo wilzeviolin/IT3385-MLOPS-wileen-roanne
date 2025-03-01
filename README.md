@@ -1,4 +1,4 @@
-# IT3385-MLOPS-wileen-roanne
+# IT3385-MLOPS Assignment-wileen-roanne
 Project Description: 
 MLOPS streamlines the process of deploying Machine Learning models to production and then maintaining and monitoring them. In this project, we will be covering two types of machine leanring models.
 1. Wheat type classification model: To predict wheat type based on its attributes on its kernel. Type 1- Kama, Type 2 - Rosa and Type 3 - Canadian.
